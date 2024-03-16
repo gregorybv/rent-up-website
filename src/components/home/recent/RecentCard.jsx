@@ -9,7 +9,7 @@ export const RecentCard = () => {
           return (
             <div className="box shadow" key={index}>
               <div className="img">
-                <img src={cover} alt=""/>
+                <img src={cover} alt="cover"/>
               </div>
               <div className="text">
                 <div className="category flex">

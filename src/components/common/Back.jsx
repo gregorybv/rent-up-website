@@ -7,7 +7,7 @@ export const Back = memo(({name, title, cover}) => {
         <span>{name}</span>
         <h1>{title}</h1>
       </div>
-      <img src={cover} alt=""/>
+      <img src={cover} alt="cover"/>
     </div>
   );
 });

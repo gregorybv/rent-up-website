@@ -9,7 +9,7 @@ import { Blog } from "../blog/Blog";
 import { Services } from "../services/Services";
 import { Contact } from "../contact/Contact";
 
-const Pages = () => {
+export const Pages = () => {
   return (
     <>
       <Router>
@@ -28,4 +28,3 @@ const Pages = () => {
   );
 };
 
-export default Pages;

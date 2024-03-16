@@ -13,7 +13,7 @@ export const Location = () => {
         <div className="content grid3 mtop">
           {location.map((item, index) => (
             <div className="box" key={index}>
-              <img src={item.cover} alt=""/>
+              <img src={item.cover} alt="cover"/>
               <div className="overlay">
                 <h5>{item.name}</h5>
                 <p>

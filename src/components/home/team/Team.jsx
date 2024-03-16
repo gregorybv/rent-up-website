@@ -17,7 +17,7 @@ export const Team = () => {
               <button className="btn3">{val.list} Listings</button>
               <div className="details">
                 <div className="img">
-                  <img src={val.cover} alt=""/>
+                  <img src={val.cover} alt="cover"/>
                   <i className="fa-solid fa-circle-check"></i>
                 </div>
                 <i className="fa fa-location-dot"></i>
